@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <>
       <nav>
-        <div className="logo">DOLLY KII PURI</div>
+        <div className="logo">BUDDY RESTAURANT</div>
         <div className={show ? "navLinks showmenu" : "navLinks"}>
           <div className="links">
             {data[0].navbarLinks.map((element) => (
@@ -19,7 +19,7 @@ const Navbar = () => {
                 to={element.link}
                 spy={true}
                 smooth={true}
-                duration={500}
+                duration={500} xx
                 key={element.id}
               >
                 {element.title}
